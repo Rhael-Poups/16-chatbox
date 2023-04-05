@@ -21,3 +21,17 @@ header {
   font-family:'Press Start 2P', cursive;
   font-size: 6px;
 }
+.chatbox-container {
+ background-image: url(../img/chatbox_background.jpg);
+ background-size: contain;
+ background-repeat:repeat ;
+ background-attachment: fixed;
+ border: 4px dotted rgb(255, 255, 255);
+ background-position: center;
+ background-color: #fbcff162;
+ display: flex;
+ max-width: 300px;
+ margin: auto;
+ flex-direction: column;
+ align-items: right;
+}
