@@ -35,6 +35,37 @@ header {
  flex-direction: column;
  align-items: right;
 }
+
+.message-content {
+  border-radius: 10px 15px 15px 0;
+  border-style:double;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+  padding: 6px 10px;
+}
+
+.message-box-nelly .message-content {
+  background: rgb(99, 148, 255);
+  margin: 0 0 5px 0;
+}
+
+.message-box-chantay {
+  align-self: flex-end;
+}
+
+.message-box-chantay .message-content {
+  margin: 0 0 5px 0;
+  background: rgb(255, 133, 180);
+  border-radius: 15px 15px 0 15px;
+}
+
+.message-box-a .message-content {
+  margin: 0 0 5px 0;
+  background: rgb(135, 92, 216);
+  margin: 0 0 5px 0;
+  color: azure;
+}
+
 footer {
   background: rgb(228, 66, 166);
   display: flex;
