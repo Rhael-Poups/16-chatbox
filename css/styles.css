@@ -88,6 +88,26 @@ header {
   color: azure;
 }
 
+.leaving-chat {
+  background-color: #fb3131e0;
+  border-radius: 15px;
+  border-style:double;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 6px;
+  padding: 2px;
+  margin: 5px;
+}
+
+.enter-chat {
+  background-color: #1aff09b5;
+  border-radius: 15px;
+  border-style:double;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 6px;
+  padding: 5px;
+  margin: 5px;
+}
+
 footer {
   background: rgb(228, 66, 166);
   display: flex;
